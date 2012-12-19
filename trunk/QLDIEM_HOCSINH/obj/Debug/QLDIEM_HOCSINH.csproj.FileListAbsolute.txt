@@ -1,0 +1,48 @@
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\ResolveAssemblyReference.cache
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmMain.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmDiem.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.Properties.Resources.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.csproj.GenerateResource.Cache
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\bin\Debug\QLDIEM_HOCSINH.exe
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\bin\Debug\QLDIEM_HOCSINH.pdb
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.exe
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.pdb
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmThemDiem.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmViewDTK.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmHocsinh.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmThemHS.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmThemLop.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmNamhoc.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmLogin.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmThongTinPhanMem.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmChangePass.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmThemNguoiDung.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmTimKiem.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmReport.resources
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\RdlCompile.cache
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\RdlCompile.compiled
+E:\Bai Tap\Bai Tap C#\QLDIEM_HOCSINH\QLDIEM_HOCSINH\bin\Debug\QLDIEM_HOCSINH.exe.config
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\bin\Debug\QLDIEM_HOCSINH.exe.config
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.exe
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.pdb
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\bin\Debug\QLDIEM_HOCSINH.exe
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\bin\Debug\QLDIEM_HOCSINH.pdb
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\ResolveAssemblyReference.cache
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmMain.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmChangePass.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmDiem.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmHocsinh.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmLogin.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmNamhoc.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmReport.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmThemDiem.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmThemHS.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmThemLop.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmThemNguoiDung.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmThongTinPhanMem.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmTimKiem.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.frmViewDTK.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.Properties.Resources.resources
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\QLDIEM_HOCSINH.csproj.GenerateResource.Cache
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\RdlCompile.cache
+E:\Bai Tap\QLDIEM_HOCSINH\QLDIEM_HOCSINH\obj\Debug\RdlCompile.compiled

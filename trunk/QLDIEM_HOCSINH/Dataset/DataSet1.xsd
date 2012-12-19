@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLHOCSINHConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLHOCSINHConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QLDIEM_HOCSINH.Properties.Settings.GlobalReference.Default.QLHOCSINHConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLHOCSINHConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     DIEM.STT, DIEM.MAHS, HOCSINH.TENHS, DIEM.MALOP, DIEM.MAMON, DIEM.MANAMHOC, DIEM.MAHK, DIEM.DIEM15, DIEM.DIEM45, DIEM.DIEMKT, 
+                      DIEM.DIEMTHI, DIEM.DIEMHK
+FROM         DIEM INNER JOIN
+                      HOCSINH ON DIEM.MAHS = HOCSINH.MAHS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STT" DataSetColumn="STT" />
+              <Mapping SourceColumn="MAHS" DataSetColumn="MAHS" />
+              <Mapping SourceColumn="TENHS" DataSetColumn="TENHS" />
+              <Mapping SourceColumn="MALOP" DataSetColumn="MALOP" />
+              <Mapping SourceColumn="MAMON" DataSetColumn="MAMON" />
+              <Mapping SourceColumn="MANAMHOC" DataSetColumn="MANAMHOC" />
+              <Mapping SourceColumn="MAHK" DataSetColumn="MAHK" />
+              <Mapping SourceColumn="DIEM15" DataSetColumn="DIEM15" />
+              <Mapping SourceColumn="DIEM45" DataSetColumn="DIEM45" />
+              <Mapping SourceColumn="DIEMKT" DataSetColumn="DIEMKT" />
+              <Mapping SourceColumn="DIEMTHI" DataSetColumn="DIEMTHI" />
+              <Mapping SourceColumn="DIEMHK" DataSetColumn="DIEMHK" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable2TableAdapter" GeneratorDataComponentClassName="DataTable2TableAdapter" Name="DataTable2" UserDataComponentName="DataTable2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLHOCSINHConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     KETQUA.STT, KETQUA.MAHS, HOCSINH.TENHS, KETQUA.MANAMHOC, KETQUA.DTBK1, KETQUA.DTBK2, KETQUA.DIEMTK, KETQUA.HANHKIEM, 
+                      KETQUA.KHENTHUONG, KETQUA.KYLUAT
+FROM         HOCSINH INNER JOIN
+                      KETQUA ON HOCSINH.MAHS = KETQUA.MAHS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STT" DataSetColumn="STT" />
+              <Mapping SourceColumn="MAHS" DataSetColumn="MAHS" />
+              <Mapping SourceColumn="TENHS" DataSetColumn="TENHS" />
+              <Mapping SourceColumn="MANAMHOC" DataSetColumn="MANAMHOC" />
+              <Mapping SourceColumn="DTBK1" DataSetColumn="DTBK1" />
+              <Mapping SourceColumn="DTBK2" DataSetColumn="DTBK2" />
+              <Mapping SourceColumn="DIEMTK" DataSetColumn="DIEMTK" />
+              <Mapping SourceColumn="HANHKIEM" DataSetColumn="HANHKIEM" />
+              <Mapping SourceColumn="KHENTHUONG" DataSetColumn="KHENTHUONG" />
+              <Mapping SourceColumn="KYLUAT" DataSetColumn="KYLUAT" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="LOPTableAdapter" GeneratorDataComponentClassName="LOPTableAdapter" Name="LOP" UserDataComponentName="LOPTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLHOCSINHConnectionString (Settings)" DbObjectName="QLHOCSINH.dbo.LOP" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[LOP] WHERE (([STT] = @Original_STT) AND ([MALOP] = @Original_MALOP) AND ((@IsNull_TENLOP = 1 AND [TENLOP] IS NULL) OR ([TENLOP] = @Original_TENLOP)) AND ((@IsNull_SISO = 1 AND [SISO] IS NULL) OR ([SISO] = @Original_SISO)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_STT" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="STT" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_MALOP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="MALOP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_TENLOP" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="TENLOP" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_TENLOP" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TENLOP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_SISO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="SISO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_SISO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="SISO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[LOP] ([MALOP], [TENLOP], [SISO]) VALUES (@MALOP, @TENLOP, @SISO);
+SELECT STT, MALOP, TENLOP, SISO FROM LOP WHERE (MALOP = @MALOP)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@MALOP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="MALOP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TENLOP" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TENLOP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@SISO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="SISO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STT, MALOP, TENLOP, SISO FROM dbo.LOP</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[LOP] SET [MALOP] = @MALOP, [TENLOP] = @TENLOP, [SISO] = @SISO WHERE (([STT] = @Original_STT) AND ([MALOP] = @Original_MALOP) AND ((@IsNull_TENLOP = 1 AND [TENLOP] IS NULL) OR ([TENLOP] = @Original_TENLOP)) AND ((@IsNull_SISO = 1 AND [SISO] IS NULL) OR ([SISO] = @Original_SISO)));
+SELECT STT, MALOP, TENLOP, SISO FROM LOP WHERE (MALOP = @MALOP)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@MALOP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="MALOP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TENLOP" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TENLOP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@SISO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="SISO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_STT" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="STT" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_MALOP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="MALOP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_TENLOP" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="TENLOP" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_TENLOP" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TENLOP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_SISO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="SISO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_SISO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="SISO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STT" DataSetColumn="STT" />
+              <Mapping SourceColumn="MALOP" DataSetColumn="MALOP" />
+              <Mapping SourceColumn="TENLOP" DataSetColumn="TENLOP" />
+              <Mapping SourceColumn="SISO" DataSetColumn="SISO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_TablePropName="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STT" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="STT" msprop:Generator_ColumnPropNameInRow="STT" msprop:Generator_ColumnVarNameInTable="columnSTT" msprop:Generator_ColumnPropNameInTable="STTColumn" type="xs:int" />
+              <xs:element name="MAHS" msprop:Generator_UserColumnName="MAHS" msprop:Generator_ColumnPropNameInRow="MAHS" msprop:Generator_ColumnVarNameInTable="columnMAHS" msprop:Generator_ColumnPropNameInTable="MAHSColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENHS" msprop:Generator_UserColumnName="TENHS" msprop:Generator_ColumnPropNameInRow="TENHS" msprop:Generator_ColumnVarNameInTable="columnTENHS" msprop:Generator_ColumnPropNameInTable="TENHSColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MALOP" msprop:Generator_UserColumnName="MALOP" msprop:Generator_ColumnPropNameInRow="MALOP" msprop:Generator_ColumnVarNameInTable="columnMALOP" msprop:Generator_ColumnPropNameInTable="MALOPColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MAMON" msprop:Generator_UserColumnName="MAMON" msprop:Generator_ColumnPropNameInRow="MAMON" msprop:Generator_ColumnVarNameInTable="columnMAMON" msprop:Generator_ColumnPropNameInTable="MAMONColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MANAMHOC" msprop:Generator_UserColumnName="MANAMHOC" msprop:Generator_ColumnPropNameInRow="MANAMHOC" msprop:Generator_ColumnVarNameInTable="columnMANAMHOC" msprop:Generator_ColumnPropNameInTable="MANAMHOCColumn" type="xs:int" />
+              <xs:element name="MAHK" msprop:Generator_UserColumnName="MAHK" msprop:Generator_ColumnPropNameInRow="MAHK" msprop:Generator_ColumnVarNameInTable="columnMAHK" msprop:Generator_ColumnPropNameInTable="MAHKColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DIEM15" msprop:Generator_UserColumnName="DIEM15" msprop:Generator_ColumnPropNameInRow="DIEM15" msprop:Generator_ColumnVarNameInTable="columnDIEM15" msprop:Generator_ColumnPropNameInTable="DIEM15Column" type="xs:double" minOccurs="0" />
+              <xs:element name="DIEM45" msprop:Generator_UserColumnName="DIEM45" msprop:Generator_ColumnPropNameInRow="DIEM45" msprop:Generator_ColumnVarNameInTable="columnDIEM45" msprop:Generator_ColumnPropNameInTable="DIEM45Column" type="xs:double" minOccurs="0" />
+              <xs:element name="DIEMKT" msprop:Generator_UserColumnName="DIEMKT" msprop:Generator_ColumnPropNameInRow="DIEMKT" msprop:Generator_ColumnVarNameInTable="columnDIEMKT" msprop:Generator_ColumnPropNameInTable="DIEMKTColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="DIEMTHI" msprop:Generator_UserColumnName="DIEMTHI" msprop:Generator_ColumnPropNameInRow="DIEMTHI" msprop:Generator_ColumnVarNameInTable="columnDIEMTHI" msprop:Generator_ColumnPropNameInTable="DIEMTHIColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="DIEMHK" msprop:Generator_UserColumnName="DIEMHK" msprop:Generator_ColumnPropNameInRow="DIEMHK" msprop:Generator_ColumnVarNameInTable="columnDIEMHK" msprop:Generator_ColumnPropNameInTable="DIEMHKColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable2" msprop:Generator_UserTableName="DataTable2" msprop:Generator_RowDeletedName="DataTable2RowDeleted" msprop:Generator_RowChangedName="DataTable2RowChanged" msprop:Generator_RowClassName="DataTable2Row" msprop:Generator_RowChangingName="DataTable2RowChanging" msprop:Generator_RowEvArgName="DataTable2RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable2RowChangeEventHandler" msprop:Generator_TableClassName="DataTable2DataTable" msprop:Generator_TableVarName="tableDataTable2" msprop:Generator_RowDeletingName="DataTable2RowDeleting" msprop:Generator_TablePropName="DataTable2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STT" msprop:Generator_UserColumnName="STT" msprop:Generator_ColumnVarNameInTable="columnSTT" msprop:Generator_ColumnPropNameInRow="STT" msprop:Generator_ColumnPropNameInTable="STTColumn" type="xs:int" />
+              <xs:element name="MAHS" msprop:Generator_UserColumnName="MAHS" msprop:Generator_ColumnVarNameInTable="columnMAHS" msprop:Generator_ColumnPropNameInRow="MAHS" msprop:Generator_ColumnPropNameInTable="MAHSColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENHS" msprop:Generator_UserColumnName="TENHS" msprop:Generator_ColumnVarNameInTable="columnTENHS" msprop:Generator_ColumnPropNameInRow="TENHS" msprop:Generator_ColumnPropNameInTable="TENHSColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MANAMHOC" msprop:Generator_UserColumnName="MANAMHOC" msprop:Generator_ColumnVarNameInTable="columnMANAMHOC" msprop:Generator_ColumnPropNameInRow="MANAMHOC" msprop:Generator_ColumnPropNameInTable="MANAMHOCColumn" type="xs:int" />
+              <xs:element name="DTBK1" msprop:Generator_UserColumnName="DTBK1" msprop:Generator_ColumnVarNameInTable="columnDTBK1" msprop:Generator_ColumnPropNameInRow="DTBK1" msprop:Generator_ColumnPropNameInTable="DTBK1Column" type="xs:double" minOccurs="0" />
+              <xs:element name="DTBK2" msprop:Generator_UserColumnName="DTBK2" msprop:Generator_ColumnVarNameInTable="columnDTBK2" msprop:Generator_ColumnPropNameInRow="DTBK2" msprop:Generator_ColumnPropNameInTable="DTBK2Column" type="xs:double" minOccurs="0" />
+              <xs:element name="DIEMTK" msprop:Generator_UserColumnName="DIEMTK" msprop:Generator_ColumnVarNameInTable="columnDIEMTK" msprop:Generator_ColumnPropNameInRow="DIEMTK" msprop:Generator_ColumnPropNameInTable="DIEMTKColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="HANHKIEM" msprop:Generator_UserColumnName="HANHKIEM" msprop:Generator_ColumnVarNameInTable="columnHANHKIEM" msprop:Generator_ColumnPropNameInRow="HANHKIEM" msprop:Generator_ColumnPropNameInTable="HANHKIEMColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KHENTHUONG" msprop:Generator_UserColumnName="KHENTHUONG" msprop:Generator_ColumnVarNameInTable="columnKHENTHUONG" msprop:Generator_ColumnPropNameInRow="KHENTHUONG" msprop:Generator_ColumnPropNameInTable="KHENTHUONGColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KYLUAT" msprop:Generator_UserColumnName="KYLUAT" msprop:Generator_ColumnVarNameInTable="columnKYLUAT" msprop:Generator_ColumnPropNameInRow="KYLUAT" msprop:Generator_ColumnPropNameInTable="KYLUATColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LOP" msprop:Generator_UserTableName="LOP" msprop:Generator_RowDeletedName="LOPRowDeleted" msprop:Generator_TableClassName="LOPDataTable" msprop:Generator_RowChangedName="LOPRowChanged" msprop:Generator_RowClassName="LOPRow" msprop:Generator_RowChangingName="LOPRowChanging" msprop:Generator_RowEvArgName="LOPRowChangeEvent" msprop:Generator_RowEvHandlerName="LOPRowChangeEventHandler" msprop:Generator_TablePropName="LOP" msprop:Generator_TableVarName="tableLOP" msprop:Generator_RowDeletingName="LOPRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STT" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="STT" msprop:Generator_ColumnPropNameInRow="STT" msprop:Generator_ColumnVarNameInTable="columnSTT" msprop:Generator_ColumnPropNameInTable="STTColumn" type="xs:int" />
+              <xs:element name="MALOP" msprop:Generator_UserColumnName="MALOP" msprop:Generator_ColumnPropNameInRow="MALOP" msprop:Generator_ColumnVarNameInTable="columnMALOP" msprop:Generator_ColumnPropNameInTable="MALOPColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENLOP" msprop:Generator_UserColumnName="TENLOP" msprop:Generator_ColumnPropNameInRow="TENLOP" msprop:Generator_ColumnVarNameInTable="columnTENLOP" msprop:Generator_ColumnPropNameInTable="TENLOPColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SISO" msprop:Generator_UserColumnName="SISO" msprop:Generator_ColumnPropNameInRow="SISO" msprop:Generator_ColumnVarNameInTable="columnSISO" msprop:Generator_ColumnPropNameInTable="SISOColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:MAHS" />
+      <xs:field xpath="mstns:MALOP" />
+      <xs:field xpath="mstns:MAMON" />
+      <xs:field xpath="mstns:MANAMHOC" />
+      <xs:field xpath="mstns:MAHK" />
+    </xs:unique>
+    <xs:unique name="DataTable2_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable2" />
+      <xs:field xpath="mstns:MAHS" />
+      <xs:field xpath="mstns:MANAMHOC" />
+    </xs:unique>
+    <xs:unique name="LOP_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LOP" />
+      <xs:field xpath="mstns:MALOP" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
